@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" />
-  <project name="christiantroy/android_packages_apps_Camera" path="packages/apps/Camera" revision="opensensation" />
+  <project name="vorbeth/android_packages_apps_Camera" path="packages/apps/Camera" revision="opensensation" />
 
-  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" />
-  <project name="christiantroy/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="ics" />
-
-  <remove-project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" />
-  <project name="christiantroy/android_hardware_libhardware" path="hardware/libhardware" revision="ics" />
-
-  <project name="christiantroy/android_system_netd" path="system/netd" revision="ics" />
-
-  <remove-project name="CyanogenMod/android_system_vold" path="system/vold" />
-  <project name="christiantroy/android_system_vold" path="system/vold" revision="ics" />
-
-  <remove-project name="SuperICS/android_build" path="build" />
-  <project name="christiantroy/android_build" path="build" revision="ics" />
-
-  <remove-project name="CyanogenMod/android_system_core" path="system/core" />
-  <project name="christiantroy/android_system_core" path="system/core" revision="ics" />
-
-  <remove-project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" />
-  <project name="christiantroy/cm_bootable_recovery" path="bootable/recovery" revision="ics" />
-
-  <project name="christiantroy/android_external_cedarx" path="external/cedarx" revision="master" />
-  <project name="christiantroy/android_hardware_realtek" path="hardware/realtek" revision="master" />
-  <project name="blerfont/android_device_nvsbl_crane-evb" path="device/nvsbl/crane-evb" revision="ics" />
-  <project name="blerfont/android_vendor_nvsbl_crane-evb" path="vendor/nvsbl/crane-evb" revision="ics" />
+  <project name="blerfont/android_device_htc_pyramid" path="device/htc/pyramid" revision="ics" />
+  <project name="vorbeth/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="opensensation" />
+  <project name="vorbeth/android_vendor_htc_pyramid" path="vendor/htc/pyramid" revision="opensensation" />
+  <project name="TamCore/android_kernel_htc_msm8660" path="kernel/htc/msm8660" revision="tamcore-kernel" />
 </manifest>
