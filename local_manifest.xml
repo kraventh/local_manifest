@@ -30,9 +30,9 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" />
   <project name="christiantroy/android_hardware_libhardware" path="hardware/libhardware" revision="ics" />
 
-  <project name="allwinner-dev-team/android_external_cedarx" path="external/cedarx" revision="master" />
+  <project name="Quarx2k/android_external_cedarx" path="external/cedarx" revision="master" />
 
-  <project name="amery/linux-allwinner" path="kernel/allwinner/common" revision="allwinner-v3.0-android-v2" />
+  <project name="allwinner-dev-team/linux-allwinner" path="kernel/allwinner/common" revision="allwinner-3.0" />
 
   <project name="christiantroy/android_hardware_realtek" path="hardware/realtek" revision="master" />
 
