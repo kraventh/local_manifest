@@ -10,27 +10,27 @@
   <project name="SuperICS/android_frameworks_base" path="frameworks/base" revision="ics-allwinner" />
 
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" />
-  <project name="christiantroy/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="ics" />
+  <project name="christiantroy/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="aokp" />
 
   <remove-project name="CyanogenMod/android_system_core" path="system/core" />
-  <project name="christiantroy/android_system_core" path="system/core" revision="ics" />
+  <project name="christiantroy/android_system_core" path="system/core" revision="aokp" />
 
   <remove-project name="CyanogenMod/android_system_netd" path="system/netd" />
-  <project name="christiantroy/android_system_netd" path="system/netd" revision="ics" />
+  <project name="christiantroy/android_system_netd" path="system/netd" revision="aokp" />
 
   <remove-project name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" />
-  <project name="christiantroy/android_packages_apps_Camera" path="packages/apps/Camera" revision="ics" />
+  <project name="christiantroy/android_packages_apps_Camera" path="packages/apps/Camera" revision="aokp" />
 
   <remove-project name="CyanogenMod/android_system_vold" path="system/vold" />
-  <project name="christiantroy/android_system_vold" path="system/vold" revision="ics" />
+  <project name="christiantroy/android_system_vold" path="system/vold" revision="aokp" />
 
   <remove-project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" />
   <project name="christiantroy/cm_bootable_recovery" path="bootable/recovery" revision="ics" />
 
   <remove-project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" />
-  <project name="christiantroy/android_hardware_libhardware" path="hardware/libhardware" revision="ics" />
+  <project name="christiantroy/android_hardware_libhardware" path="hardware/libhardware" revision="aokp" />
 
-  <project name="Quarx2k/android_external_cedarx" path="external/cedarx" revision="master" />
+  <project name="christiantroy/android_external_cedarx" path="external/cedarx" revision="master" />
 
   <project name="allwinner-dev-team/linux-allwinner" path="kernel/allwinner/common" revision="allwinner-3.0" />
 
