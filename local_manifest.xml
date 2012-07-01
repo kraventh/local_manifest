@@ -32,7 +32,7 @@
 
   <project name="christiantroy/android_external_cedarx" path="external/cedarx" revision="master" />
 
-  <project name="allwinner-dev-team/linux-allwinner" path="kernel/allwinner/common" revision="allwinner-3.0" />
+  <project name="christiantroy/linux-allwinner" path="kernel/allwinner/common" revision="allwinner-v3.0-android-v2" />
 
   <project name="christiantroy/android_hardware_realtek" path="hardware/realtek" revision="master" />
 
