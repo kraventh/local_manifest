@@ -3,20 +3,11 @@
   <remove-project name="SuperICS/android_build" path="build" />
   <project name="SuperICS/android_build" path="build" revision="ics-allwinner" />
 
-  <remove-project name="SuperICS/android_packages_apps_Settings" path="packages/apps/Settings" />
-  <project name="SuperICS/android_packages_apps_Settings" path="packages/apps/Settings" revision="ics-allwinner" />
-
   <remove-project name="SuperICS/android_frameworks_base" path="frameworks/base" />
   <project name="SuperICS/android_frameworks_base" path="frameworks/base" revision="ics-allwinner" />
 
-  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" />
-  <project name="christiantroy/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="aokp" />
-
   <remove-project name="CyanogenMod/android_system_core" path="system/core" />
   <project name="christiantroy/android_system_core" path="system/core" revision="aokp" />
-
-  <remove-project name="CyanogenMod/android_system_netd" path="system/netd" />
-  <project name="christiantroy/android_system_netd" path="system/netd" revision="aokp" />
 
   <remove-project name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" />
   <project name="christiantroy/android_packages_apps_Camera" path="packages/apps/Camera" revision="aokp" />
@@ -32,9 +23,9 @@
 
   <project name="christiantroy/android_external_cedarx" path="external/cedarx" revision="master" />
 
-  <project name="christiantroy/linux-allwinner" path="kernel/allwinner/common" revision="allwinner-v3.0-android-v2" />
+  <project name="allwinner-dev-team/linux-allwinner" path="kernel/allwinner/common" revision="allwinner-3.0" />
 
-  <project name="christiantroy/android_hardware_realtek" path="hardware/realtek" revision="master" />
+  <project name="allwinner-dev-team/android_hardware_realtek" path="hardware/realtek" revision="ics" />
 
   <project name="blerfont/android_device_nvsbl_dragon" path="device/nvsbl/dragon" revision="ics" />
 </manifest>
